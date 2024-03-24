@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/website/static/style.css">
+<link rel="shortcut icon" href="../static/iconeCliente.png" type="image/x-icon">
+    <title>Painel de controle</title>
+</head>
+
+<body>
+    <div>
+        <h1>
+            Para começar preencha o seu carrinho
+        </h1>
+        <ul>
+            <li>
+                <fieldset id="pedido">
+                    <legend>
+                        Escolha o seu pedido
+                    </legend>
+                    <label for="">
+                        Lanche:
+                        <input type="text" name="tCid" id="cCid" maxlength="40" size="20"
+                            placeholder=" ESCOLHA SEU LANCHE" list="lanche">
+                        <datalist id="lanche">
+                            <option value="">
+                            <option value="pizza">PIZZA</option>
+                            <option value="burger">HAMBÚRGUER</option>
+                            <option value="salgados">SALGADOS</option>
+                            <option value="doces">SOBREMESAS</option>
+                            <option value="bebida">BEBIDAS</option>
+                        </datalist>
+                        Q°:
+                        <input placeholder="Quantidade" type="number" name="tNum" id="cNum" min="0" max="999999">
+                    </label>
+                </fieldset>
+            </li>
+            <li>
+                <fieldset id="bebidas">
+                    <legend>
+                        BEBIDAS
+                    </legend>
+                    <label for="">
+                        Bebidas:
+                        <input type="text" name="tCid" id="cCid" maxlength="40" size="20"
+                            placeholder="Escolha a sua bebida" list="cidades">
+                        <datalist id="cidades">
+                            <option value="REFRIGERANTE">
+                                Coca-Cola
+                            </option>
+                            <option value="REFRIGERANTE">
+                                Fanta
+                            </option>
+                            <option value="REFRIGERANTE">
+                                Guarana Mineiro
+                            </option>
+                            <option value="CERVEJA">
+                                Brahma
+                            </option>
+                            <option value="CERVEJA">
+                                Itaipava
+                            </option>
+                            <option value="SUCO">
+                                Suco de Laranja
+                            </option>
+                            <option value="SUCO">
+                                Suco de Uva
+                            </option>
+                            <option value="ÀGUA">
+                                Àgua com gás
+                            </option>
+                            <option value="ÀGUA">
+                                Àgua sem gás
+                            </option>
+                        </datalist>
+                        Q°
+                        <input placeholder="Quantidade" type="number" name="tNum" id="cNum" min="0" max="999999">
+                    </label>
+                </fieldset>
+            </li>
+            <li>
+                <fieldset id="formasDePagamento">
+                    <legend>
+                        Forma de pagamento
+                    </legend>
+                    <label for="">
+                        Pagamento:
+                        <input type="text" maxlength="40" size="20" placeholder="Escreva a forma de pagamento"
+                            list="pagamento">
+                        <datalist id="pagamento">
+                            <option value="">
+                            </option>
+                            <option value="PIX">PIX</option>
+                            <option value="Maquininha de cartão">Crédito ou Debito</option>
+                            <option value="Dinheiro">Dinheiro</option>
+                        </datalist>
+                    </label>
+                </fieldset>
+            </li>
+        </ul>
+    </div>
+    <a href="sucesso"><button id="btnFinalizar">FINALIZAR</button></a>
+</body>
+
+</html>

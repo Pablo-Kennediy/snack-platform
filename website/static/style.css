@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+body#painelCtrl {
+    background-color: white;
+    color: black;
+}
+header nav{
+    background-color: #A5392D;
+}
+body#painelCtrl nav ul li{
+    color: black;
+}
+h1,
+h2,
+h3 {
+    margin-top: 50px;
+    color: #A5392D;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+picture#logo img {
+    float: left;
+    max-width: 125px;
+}
+
+header {
+    padding: 25px;
+}
+header nav{
+    float: left;
+}
+header nav ul{
+    columns: 1;
+}
+section{
+    width: 100%;
+}
+footer picture img {
+    width: 100%;
+}
+
+picture.stivePizza img {
+    border-radius: 15px;
+    max-width: 300px;
+}
+
+section {
+    margin: auto;
+}
+
+section#tamanhoDaPizza li img {
+    width: 300px;
+    height: 30vh;
+    margin: auto;
+    border-radius: 400px;
+}
+
+.sabor {
+    display: flex;
+    justify-content: center;
+}
+
+.sabor section {
+    margin: 15px;
+    width: 50%;
+    border-radius: 15px;
+}
+
+section#adicional div {
+    width: 50%;
+}
+
+video {
+    width: 100%;
+}
+
+button {
+    border-radius: 15px;
+    background-color: #D92B2B;
+    margin: 15px;
+    right: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+section ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 25px;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.block {
+    display: inline-block;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.block h1 {
+    padding: 15px;
+}
+
+.flex {
+    display: flex;
+}
+
+div#faixa01 {
+    justify-content: space-between;
+    margin: auto;
+}
+
+select,
+datalist,
+input {
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+}
+
+div {
+    margin: auto;
+    max-width: 1200px;
+}
+
+label {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    font-size: x-small;
+}
+
+.fixoParaPedidos {
+    position: fixed;
+}
+
+section .fixoParaPedidos {
+    background-color: black;
+}
+
+ul {
+    columns: 2;
+    justify-content: space-between;
+}
+@media (max-width: 501px){
+    ul{
+        columns: 1;
+    } 
+}
+
+ul li {
+    font-size: small;
+    list-style: none;
+    border-radius: 15px;
+    max-width: 600px;
+    margin: 15px;
+    padding: 15px;
+    margin-top: 50px;
+}
+
+input {
+    font-size: x-small;
+    width: 100%;
+}
+
+.container {
+    max-width: 500px;
+}
+fieldset{
+    margin: auto;
+    border-radius: 15px;
+    padding: 15px;
+}
+button{
+    font-size: smaller;
+    padding: 5px;
+}
+
+form{
+    margin: auto;
+    max-width: 500px;
+}
+form ul{
+    columns: 1;
+}
+form ul li{
+    margin: 15px;
+}
+#firstSection {
+    margin-top: 30vh;
+}

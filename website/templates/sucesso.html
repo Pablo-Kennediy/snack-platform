@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/website/static/style.css">
+  <link rel="shortcut icon" href="../static/iconeCliente.png" type="image/x-icon">
+  <title>Painel de controle</title>
+</head>
+
+<body>
+  <div class="interface">
+    <section>
+      <h1 style="color: green;">
+        Seu pedido está confirmado!
+      </h1>
+      <h1>
+        Seu ticket foi gerado com sucesso!
+      </h1>
+      <h1>
+        Acompanhe o status do seu pedido em tempo real pelo WhatsApp:
+      </h1>
+      <!-- [Link para o WhatsApp] -->
+      <h2>
+        Prazo de entrega estimado para sua região:
+      </h2>
+      <p style="display: flex; align-items: center; justify-content: center;">
+        <picture id="despertador">
+          <img src="{{ url_for('static', filename='despertador.png') }}" alt="" />
+        </picture>
+        40 a 120 minutos
+      </p>
+      <h2>
+        A Steve agradece a sua confiança!
+      </h2>
+      <h1>
+        Até breve!
+      </h1>
+    </section>
+  </div>
+  <footer>
+    <picture>
+      <p>
+        Desenvolvido por
+        <a href="https://www.instagram.com/ti.udia/" target="_blank">
+          PK Produtos Digitais
+          <img src="iconsMoon.png" alt="" />
+        </a>
+      </p>
+    </picture>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/website/static/style.css">
+    <link rel="shortcut icon" href="../static/iconeCliente.png" type="image/x-icon">
+    <title>Painel de controle</title>
+</head>
+
+<body>
+    <h1>Cadastro de Clientes</h1>
+    <form action="enviar.php" method="post">
+        <ul>
+            <li> <label for="nome_completo">Nome completo:</label>
+                <input type="text" id="nome_completo" name="nome_completo" required>
+            </li>
+            <li> <label for="cpf_cnpj">CPF ou CNPJ:</label>
+                <input type="text" id="cpf_cnpj" name="cpf_cnpj" required>
+            </li>
+            <li> <label for="nome_fantasia">Nome fantasia (opcional):</label>
+                <input type="text" id="nome_fantasia" name="nome_fantasia">
+            </li>
+            <li> <label for="computador">Já possui computador?</label>
+                <select id="computador" name="computador" required>
+                    <option value="">Selecione</option>
+                    <option value="sim">Sim</option>
+                    <option value="nao">Não</option>
+                </select>
+            </li>
+            <li> <label for="cep">CEP:</label>
+                <input type="text" id="cep" name="cep" required>
+            </li>
+            <li> <label for="endereco">Endereço:</label>
+                <input type="text" id="endereco" name="endereco" required>
+            </li>
+        </ul>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+
+</html>
