@@ -7,19 +7,27 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.interface p {
+    font-size: small;
+}
+
 body {
     background-color: black;
 }
+
 body#painelCtrl {
     background-color: white;
     color: black;
 }
-header nav{
+
+header nav {
     background-color: #A5392D;
 }
-body#painelCtrl nav ul li{
+
+body#painelCtrl nav ul li {
     color: black;
 }
+
 h1,
 h2,
 h3 {
@@ -37,18 +45,23 @@ picture#logo img {
     max-width: 125px;
 }
 
-header {
-    padding: 25px;
-}
-header nav{
+
+header nav {
     float: left;
+    height: 100vh;
 }
-header nav ul{
+header > nav{
+    padding: 0;
+}
+
+header nav ul {
     columns: 1;
 }
-section{
+
+section {
     width: 100%;
 }
+
 footer picture img {
     width: 100%;
 }
@@ -158,14 +171,14 @@ ul {
     columns: 2;
     justify-content: space-between;
 }
-@media (max-width: 501px){
-    ul{
+
+@media (max-width: 501px) {
+    ul {
         columns: 1;
-    } 
+    }
 }
 
-ul li {
-    font-size: small;
+li {
     list-style: none;
     border-radius: 15px;
     max-width: 600px;
@@ -182,26 +195,31 @@ input {
 .container {
     max-width: 500px;
 }
-fieldset{
+
+fieldset {
     margin: auto;
     border-radius: 15px;
     padding: 15px;
 }
-button{
+
+button {
     font-size: smaller;
     padding: 5px;
 }
 
-form{
+form {
     margin: auto;
     max-width: 500px;
 }
-form ul{
+
+form ul {
     columns: 1;
 }
-form ul li{
+
+form ul li {
     margin: 15px;
 }
+
 #firstSection {
     margin-top: 30vh;
 }
