@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/website/static/style.css">
+    <link rel="stylesheet" href="../static/style.css">
     <link rel="shortcut icon" href="../static/iconeCliente.png" type="image/x-icon">
     <title>Painel de controle</title>
 </head>
@@ -37,20 +37,21 @@
                     </label>
                     <h1>Sabores</h1>
                     <form action="#">
-                      <label for="sabor">Escolha seu sabor:</label>
-                      <input type="text" id="sabor" name="sabor" list="sabores" placeholder="Escolha o sabor do lanche">
-                      <datalist id="sabores">
-                        <option value="Calabresa">Calabresa</option>
-                        <option value="Portuguesa">Portuguesa</option>
-                        <option value="Frango com Catupiry">Frango com Catupiry</option>
-                        <option value="Quatro Queijos">Quatro Queijos</option>
-                        <option value="Mussarela">Mussarela</option>
-                        <option value="Marguerita">Marguerita</option>
-                        <option value="Napolitana">Napolitana</option>
-                        <option value="Bacon com Milho">Bacon com Milho</option>
-                        <option value="Lombo Canadense">Lombo Canadense</option>
-                        <option value="Brigadeiro">Brigadeiro</option>
-                      </datalist>
+                        <label for="sabor">Escolha seu sabor:</label>
+                        <input type="text" id="sabor" name="sabor" list="sabores"
+                            placeholder="Escolha o sabor do lanche">
+                        <datalist id="sabores">
+                            <option value="Calabresa">Calabresa</option>
+                            <option value="Portuguesa">Portuguesa</option>
+                            <option value="Frango com Catupiry">Frango com Catupiry</option>
+                            <option value="Quatro Queijos">Quatro Queijos</option>
+                            <option value="Mussarela">Mussarela</option>
+                            <option value="Marguerita">Marguerita</option>
+                            <option value="Napolitana">Napolitana</option>
+                            <option value="Bacon com Milho">Bacon com Milho</option>
+                            <option value="Lombo Canadense">Lombo Canadense</option>
+                            <option value="Brigadeiro">Brigadeiro</option>
+                        </datalist>
                 </fieldset>
             </li>
             <li>
@@ -117,7 +118,11 @@
             </li>
         </ul>
     </div>
-    <a href="sucesso"><button id="btnFinalizar">FINALIZAR</button></a>
+    <a href="sucesso.html">
+        <button id="btnFinalizar">
+            FINALIZAR
+        </button>
+    </a>
 </body>
 
 </html>
